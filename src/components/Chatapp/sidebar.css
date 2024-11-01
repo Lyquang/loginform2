@@ -1,0 +1,88 @@
+
+/* Sidebar styling */
+.sidebar {
+    padding: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 0;
+    background-color: #343a40;
+    color: #ffffff;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.brand-icon {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.logo-icon {
+    display: inline-flex;
+    margin-right: 8px;
+}
+
+.menu-list {
+    flex-grow: 1;
+    margin-top: 16px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.menu-list .collapsed {
+    display: block;
+    width: 100%;
+}
+
+.m-link {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.m-link:hover {
+    background-color: #495057;
+}
+
+.sub-menu {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.sub-menu .ms-link {
+    display: block;
+    color: #ced4da;
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.sub-menu .ms-link:hover {
+    color: #ffffff;
+}
+
+.arrow {
+    margin-left: auto;
+    display: inline-flex;
+}
+
+.sidebar-mini-btn {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: auto;
+    font-size: 1.2rem;
+}
